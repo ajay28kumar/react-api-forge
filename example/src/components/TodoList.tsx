@@ -1,6 +1,6 @@
 import React from 'react';
 import { useGet } from 'react-api-weaver';
-import { getTodos } from '../generated/api';
+import { getTodos } from '../generated/todo-api-client';
 
 const TodoList: React.FC = () => {
   const { data, loading, error, refetch } = useGet(

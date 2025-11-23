@@ -13,7 +13,9 @@ export default defineConfig([
   },
   // CLI bundle
   {
-    entry: ['src/cli/index.ts'],
+    entry: {
+      'cli': 'src/cli/index.ts',
+    },
     format: ['cjs'],
     outDir: 'dist',
     outExtension: () => ({ js: '.js' }),

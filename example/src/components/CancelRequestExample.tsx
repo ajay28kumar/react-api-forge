@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { useGet } from 'react-api-weaver';
-import { getUsers } from '../generated/api';
+import { getUsers } from '../generated/todo-api-client';
 
 const CancelRequestExample: React.FC = () => {
   const [enabled, setEnabled] = useState(false);

@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { useGet } from 'react-api-weaver';
-import { getTodoById } from '../generated/api';
+import { getTodoById } from '../generated/todo-api-client';
 
 const PollingExample: React.FC = () => {
   const [isPolling, setIsPolling] = useState(false);

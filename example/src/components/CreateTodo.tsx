@@ -1,13 +1,13 @@
 import React, { useState } from 'react';
 import { usePost } from 'react-api-weaver';
-import { createTodo } from '../generated/api';
+import { createTodo } from '../generated/todo-api-client';
 
 const CreateTodo: React.FC = () => {
   const [title, setTitle] = useState('');
   const [showSuccess, setShowSuccess] = useState(false);
 
   const { data, loading, error, refetch } = usePost(
-    () => createTodo({}, { userId: 1, title, completed: false }),
+    () => createTodo({ userId: 1, title, completed: false }),
     {
       enabled: false, // Don't execute on mount
       onSuccess: () => {
