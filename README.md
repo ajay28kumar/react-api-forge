@@ -470,6 +470,12 @@ MIT
 - [React Query](https://tanstack.com/query/latest)
 - [SWR](https://swr.vercel.app/)
 
+## ☕ Support
+
+If you find this project helpful, consider supporting me by buying me a coffee!
+
+[![Buy Me A Coffee](https://img.shields.io/badge/Buy%20Me%20A%20Coffee-FFDD00?style=for-the-badge&logo=buy-me-a-coffee&logoColor=black)](https://buymeacoffee.com/ajay28kumar)
+
 ---
 
 Made with ❤️ by the React API Weaver team
